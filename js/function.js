@@ -6,14 +6,12 @@ $(document).ready(function(){
     var $image = $('<img id="image">');
     var $text = $('<p id="text"></p>');
     
-    
     //UNO LOS ELEMENTOS.
     $container.append($image);
     $container.append($text);
     $background.append($container);
     $("body").append($background);
     
-
     //OCULTO EL BACKGROUND
     $background.hide();
     
