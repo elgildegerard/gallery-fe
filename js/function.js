@@ -10,12 +10,10 @@ $(document).ready(function(){
     //UNO LOS ELEMENTOS.
     $container.append($image);
     $container.append($text);
-    
     $background.append($container);
-        
     $("body").append($background);
     
-      
+
     //OCULTO EL BACKGROUND
     $background.hide();
     
