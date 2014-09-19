@@ -21,23 +21,12 @@ $(document).ready(function(){
     
     //CENTRAR IMAGEN    
     var ventana_ancho = $(window).width();
-    console.log (ventana_ancho);
-    
     var ventana_alto = $(window).height();
-    console.log(ventana_alto);
-    
     var lightbox_ancho = $("#container").width();
-    console.log(lightbox_ancho);
-    
     var lightbox_alto = $("#container").height();
-    console.log(lightbox_alto);
-    
     var ancho_general = (ventana_ancho-lightbox_ancho)/2;
-    console.log(ancho_general)
-    
     var alto_general = (ventana_alto-lightbox_alto)/2;
-    console.log(alto_general)    
-
+    
     $("#container").css("top", alto_general);
     $("#container").css("left", ancho_general);
     
